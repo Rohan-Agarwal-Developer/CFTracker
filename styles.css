@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat";
+  color: Black;
+  padding: 0 10% 10%;
+  text-align: center;
+  background-color: rgb(219, 217, 217);
+}
+
+.heading input{
+  border: none !important;
+  border: 0;
+  -webkit-appearance: none;
+  -webkit-focus
+}
+
+.user-data{
+  margin-top: 2%;
+}
+
+.user-data .row{
+  background-color: white;
+  margin: 0.5% 10%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  box-shadow: 2px 2px;
+}
+
+.user-data p{
+  padding: 0;
+  margin: 0;
+  /* border-right: 1px solid red; */
+}
+
+.user-data .col-lg-3{
+  /* padding: 0;
+  margin: 0; */
+  border-right: 2px solid rgb(145, 141, 129);
+}
+
+.rating-graph{
+  border-radius: 5px;
+  margin: 1% 0;
+  padding: 1%;
+  background-color: white;
+  overflow-y: hidden;
+  box-shadow: 2px 2px;
+}
+
+.character-graph{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  margin: 1% 10%;
+  padding: 1%;
+  background-color: white;
+  overflow-y: hidden;
+  box-shadow: 2px 2px;
+}
+
+.difficulty-chart{
+  background-color: white;
+  margin: 1% 10%;
+  padding: 1%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  text-align: center;
+  overflow-y: auto;
+  box-shadow: 2px 2px;
+}
+
+.tag-graph{
+  padding: 1%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+}
+
+.verdict-graph{
+  background-color: white;
+  padding: 1%;
+  padding-bottom: 1.8%;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+}
+.col-lg-5{
+  padding-right: 1%;
+}
+.col-lg-7{
+  padding-left: 0;
+}
+
+.heatmap{
+  background-color: white;
+  padding: 3% 1%;
+  padding-bottom: 1.8%;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  margin: 1% 10%;
+}
