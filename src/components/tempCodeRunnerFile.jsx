@@ -1,0 +1,1 @@
+{totalContests} {totalSubmissions} {avgAttempts} {maxUp} {maxDown}
