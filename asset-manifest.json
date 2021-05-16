@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.919befbe.chunk.css",
-    "main.js": "/static/js/main.1bf5b257.chunk.js",
-    "main.js.map": "/static/js/main.1bf5b257.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.415da21c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.415da21c.js.map",
-    "static/js/2.2fe975ce.chunk.js": "/static/js/2.2fe975ce.chunk.js",
-    "static/js/2.2fe975ce.chunk.js.map": "/static/js/2.2fe975ce.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.919befbe.chunk.css.map": "/static/css/main.919befbe.chunk.css.map",
-    "static/js/2.2fe975ce.chunk.js.LICENSE.txt": "/static/js/2.2fe975ce.chunk.js.LICENSE.txt"
+    "main.css": "/rohan-agarwal-developer/cftracker/static/css/main.919befbe.chunk.css",
+    "main.js": "/rohan-agarwal-developer/cftracker/static/js/main.1bf5b257.chunk.js",
+    "main.js.map": "/rohan-agarwal-developer/cftracker/static/js/main.1bf5b257.chunk.js.map",
+    "runtime-main.js": "/rohan-agarwal-developer/cftracker/static/js/runtime-main.ea499a74.js",
+    "runtime-main.js.map": "/rohan-agarwal-developer/cftracker/static/js/runtime-main.ea499a74.js.map",
+    "static/js/2.2fe975ce.chunk.js": "/rohan-agarwal-developer/cftracker/static/js/2.2fe975ce.chunk.js",
+    "static/js/2.2fe975ce.chunk.js.map": "/rohan-agarwal-developer/cftracker/static/js/2.2fe975ce.chunk.js.map",
+    "index.html": "/rohan-agarwal-developer/cftracker/index.html",
+    "static/css/main.919befbe.chunk.css.map": "/rohan-agarwal-developer/cftracker/static/css/main.919befbe.chunk.css.map",
+    "static/js/2.2fe975ce.chunk.js.LICENSE.txt": "/rohan-agarwal-developer/cftracker/static/js/2.2fe975ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.415da21c.js",
+    "static/js/runtime-main.ea499a74.js",
     "static/js/2.2fe975ce.chunk.js",
     "static/css/main.919befbe.chunk.css",
     "static/js/main.1bf5b257.chunk.js"
