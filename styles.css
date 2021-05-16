@@ -7,6 +7,12 @@ body {
   background-color: rgb(227, 226, 222);
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    padding: 15% 3%;
+  }
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -18,6 +24,12 @@ body {
 
 .navbarlinks {
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar{
+    padding: 0.1% 3%;
+  }
 }
 
 .heading input {
@@ -35,6 +47,22 @@ body {
 
 .heading button {
   margin-left: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading input{
+    padding: 2%;
+    padding-left: 5%;
+  }
+  .heading .form-inline{
+    padding-left: 20px;
+  }
+  .heading button{
+    margin: 0;
+  }
+  .heading .form-group{
+    margin: 0;
+  }
 }
 
 .user-data {
@@ -62,12 +90,18 @@ body {
   border-right: 2px solid rgb(145, 141, 129);
 }
 
+@media screen and (max-width: 768px) {
+  .user-data .row{
+    margin: 2% 0;
+  }
+}
+
 .rating-graph {
   border-radius: 5px;
   margin: 1% 0;
   padding: 1%;
   background-color: white;
-  overflow-y: hidden;
+  overflow-y: auto;
   box-shadow: 2px 2px;
 }
 
@@ -77,8 +111,14 @@ body {
   margin: 1% 10%;
   padding: 1%;
   background-color: white;
-  overflow-y: hidden;
+  overflow-y: auto;
   box-shadow: 2px 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .character-graph {
+    margin: 2% 0;
+  }
 }
 
 .difficulty-chart {
@@ -92,6 +132,12 @@ body {
   box-shadow: 2px 2px;
 }
 
+@media screen and (max-width: 768px) {
+  .difficulty-chart {
+    margin: 2% 0;
+  }
+}
+
 .tag-graph {
   padding: 1%;
   background-color: white;
@@ -99,18 +145,37 @@ body {
   box-shadow: 2px 2px;
 }
 
-.verdict-graph {
-  background-color: white;
-  padding: 1%;
-  padding-bottom: 1.8%;
-  border-radius: 5px;
-  box-shadow: 2px 2px;
+
+
+@media screen and (min-width: 768px){
+  .verdict-graph {
+    background-color: white;
+    padding: 1%;
+    padding-bottom: 1.8%;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+  }
+  .col-lg-5 {
+    padding-right: 1%;
+  }
+  .col-lg-7 {
+    padding-left: 0;
+  }
 }
-.col-lg-5 {
-  padding-right: 1%;
-}
-.col-lg-7 {
-  padding-left: 0;
+
+@media screen and (max-width: 768px) {
+  .verdict-graph {
+    background-color: white;
+    padding: 1%;
+    padding-bottom: 1.8%;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    margin-bottom: 2%;
+  }
+  .verdict-graph .col-12{
+    padding-right: 0;
+    margin: 2% 0;
+  }
 }
 
 .heatmap {
@@ -120,4 +185,5 @@ body {
   border-radius: 5px;
   box-shadow: 2px 2px;
   margin: 1% 10%;
+  overflow-y: auto;
 }
